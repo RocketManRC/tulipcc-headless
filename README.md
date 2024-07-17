@@ -32,7 +32,7 @@ Hopefully these photos are self explanatory:
 
 ### Setting up the DAC board
 
-Depending on the manufacturer the PCM5102A board needs most likely needs solder pads jumpered. The boards that I have needed to be configured like in this photo:
+Depending on the manufacturer the PCM5102A board most likely needs solder pads jumpered. The boards that I have needed to be configured like in this photo:
 
 ![](images/PCM5102config.JPG) 
 
@@ -64,6 +64,8 @@ After downloading and before building for the first time find boot.py and add th
 
 `tulip.display_stop()
 `
+
+NOTE: you have to use the full build procedure that updates the file system to update boot.py on the device.
 
 I'm using MacOS (Intel based) and found that I had to program the board with the USB-C connector labelled USB and had to put the ESP32 in bootloader mode first (using BOOT + RST buttons). After that you can connect to the computer for the MicroPython REPL with the other USB port (labelled COM) and use the other port for host USB MIDI if wanted.
 
