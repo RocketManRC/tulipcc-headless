@@ -71,4 +71,4 @@ I'm using MacOS (Intel based) and found that I had to program the board with the
 
 ### Final Note
 
-Most of the Tulip CC examples and documentation assume having a user interface so I am working through the basics and trying to come up with a good workflow. Also my Python is a more than a bit rusty so that adds to the challenge :-)
+Most of the Tulip CC examples and documentation assume having a user interface so I am working through the basics and trying to come up with a good workflow. Also my Python is more than a bit rusty so that adds to the challenge :-)
